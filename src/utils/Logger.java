@@ -8,7 +8,9 @@ import java.util.Date;
  * This is a custom logger to be used as a debugging tool.
  * It prints the desired input in a file instead of the console wich is used y inginious for submits.
  * */
+@SuppressWarnings("unused")
 public class Logger {
+    @SuppressWarnings("unused")
     public static void println(String message) {
         try {
             FileWriter fileWriter = new FileWriter("log.txt", true);
@@ -19,6 +21,7 @@ public class Logger {
             logError(e.getMessage());
         }
     }
+    @SuppressWarnings("unused")
     public static void print(String message) {
         try {
             FileWriter fileWriter = new FileWriter("log.txt", true);
@@ -29,6 +32,7 @@ public class Logger {
             logError(e.getMessage());
         }
     }
+    @SuppressWarnings("unused")
     public static void clearLog() {
         try (PrintWriter writer = new PrintWriter(new FileWriter("log.txt"))) {
             writer.print("");
@@ -48,8 +52,5 @@ public class Logger {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
-    public static void main(String[] args) {
-        logError("An error occurred.");
     }
 }
