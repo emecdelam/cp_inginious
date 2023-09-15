@@ -4,13 +4,11 @@ import java.util.Scanner;
 public class AdHoc {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine();
-        String[] splitInput = input.split("\n");
-        int n = Integer.parseInt(splitInput[0]);
-        int q = Integer.parseInt(splitInput[1]);
+        int n = Integer.parseInt(scanner.nextLine());
+        int q = Integer.parseInt(scanner.nextLine());
         int[] array = generateArray(n);
         for (int i = 2; i < q+2; i++){
-            String[] line = splitInput[i].split(" ");
+            String[] line = scanner.nextLine().split(" ");
             int p = Integer.parseInt(line[0]);
             int r = Integer.parseInt(line[1]);
             int arraylength = (int) Math.pow(2,r-1);

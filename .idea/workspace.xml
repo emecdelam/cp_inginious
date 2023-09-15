@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="Logger for debugging without printing in the terminal">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="project struct changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ad_hoc/AdHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad_hoc/AdHoc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ad_hoc/AdHocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad_hoc/AdHocTest.java" afterDir="false" />
     </list>
@@ -49,7 +49,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Logger">
+  <component name="RunManager" selected="JUnit.AdHocTest.testMain">
     <configuration name="Logger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="utils.Logger" />
       <module name="cp_ingi" />
@@ -81,8 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Logger" />
         <item itemvalue="JUnit.AdHocTest.testMain" />
+        <item itemvalue="Application.Logger" />
       </list>
     </recent_temporary>
   </component>
@@ -119,27 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694787755012</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project struct changes">
+      <option name="closed" value="true" />
+      <created>1694787842484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694787842484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
     <MESSAGE value="Logger for debugging without printing in the terminal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logger for debugging without printing in the terminal" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/ad_hoc/AdHocTest.java</url>
-          <line>10</line>
-          <properties class="ad_hoc.AdHocTest" method="testMain">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="project struct changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="project struct changes" />
   </component>
 </project>
