@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/src/utils/Logger.java" afterDir="false" />
+    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="Logger for debugging without printing in the terminal">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ad_hoc/AdHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad_hoc/AdHoc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ad_hoc/AdHocTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ad_hoc/AdHocTest.java" afterDir="false" />
     </list>
@@ -105,12 +103,29 @@
       <option name="project" value="LOCAL" />
       <updated>1694784075251</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Logger for debugging without printing in the terminal">
+      <option name="closed" value="true" />
+      <created>1694787670666</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694787670666</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Logger for debugging without printing in the terminal">
+      <option name="closed" value="true" />
+      <created>1694787755012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694787755012</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="Logger for debugging without printing in the terminal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logger for debugging without printing in the terminal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
