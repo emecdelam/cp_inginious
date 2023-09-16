@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="ad_hoc optimization" />
+    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="test class for io">
+      <change afterPath="$PROJECT_DIR$/src/utils/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs_represeantation/Graphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs_represeantation/Graphs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs_represeantation/GraphsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs_represeantation/GraphsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +173,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694891950041</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ad_hoc optimization">
+      <option name="closed" value="true" />
+      <created>1694892020097</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694892020097</updated>
+    </task>
+    <task id="LOCAL-00010" summary="graphs init">
+      <option name="closed" value="true" />
+      <created>1694892066308</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694892066308</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +209,8 @@
     <MESSAGE value="project struct changes" />
     <MESSAGE value="ad_hoc fix" />
     <MESSAGE value="ad_hoc optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="ad_hoc optimization" />
+    <MESSAGE value="graphs init" />
+    <MESSAGE value="test class for io" />
+    <option name="LAST_COMMIT_MESSAGE" value="test class for io" />
   </component>
 </project>
