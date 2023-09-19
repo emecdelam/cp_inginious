@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="test class for io">
-      <change afterPath="$PROJECT_DIR$/src/utils/TestClass.java" afterDir="false" />
+    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="pathfinder class complete">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs_represeantation/Graphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs_represeantation/Graphs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs_represeantation/GraphsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs_represeantation/GraphsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs_represeantation/Graphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs_pathfinding/Graphs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs_represeantation/GraphsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs_pathfinding/GraphsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="se8s0b3y" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2VQREwTzx8su1IJGBwp26n3l07O" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -63,13 +66,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.AdHocTest.testMain">
-    <configuration name="Logger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="utils.Logger" />
+  <component name="RunManager" selected="JUnit.GraphsTest">
+    <configuration name="Graphs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs_pathfinding.Graphs" />
       <module name="cp_ingi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="graphs_pathfinding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,10 +96,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GraphsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cp_ingi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs_pathfinding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graphs_pathfinding" />
+      <option name="MAIN_CLASS_NAME" value="graphs_pathfinding.GraphsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphsTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cp_ingi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs_pathfinding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graphs_pathfinding" />
+      <option name="MAIN_CLASS_NAME" value="graphs_pathfinding.GraphsTest" />
+      <option name="METHOD_NAME" value="testMain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GraphsTest.testPathFinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cp_ingi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graphs_pathfinding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="graphs_pathfinding" />
+      <option name="MAIN_CLASS_NAME" value="graphs_pathfinding.GraphsTest" />
+      <option name="METHOD_NAME" value="testPathFinder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GraphsTest" />
+        <item itemvalue="JUnit.GraphsTest.testMain" />
+        <item itemvalue="Application.Graphs" />
+        <item itemvalue="JUnit.GraphsTest.testPathFinder" />
         <item itemvalue="JUnit.AdHocTest.testMain" />
-        <item itemvalue="Application.Logger" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +264,7 @@
     <MESSAGE value="ad_hoc optimization" />
     <MESSAGE value="graphs init" />
     <MESSAGE value="test class for io" />
-    <option name="LAST_COMMIT_MESSAGE" value="test class for io" />
+    <MESSAGE value="pathfinder class complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="pathfinder class complete" />
   </component>
 </project>
