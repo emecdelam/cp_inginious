@@ -3,6 +3,9 @@ package solving_a_maze;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import utils.TestClass;
+
+import java.util.Arrays;
+
 public class MazeTest {
     @Test
     public void testMain(){
@@ -41,5 +44,11 @@ public class MazeTest {
                 1 5\r
                 """;
         Assertions.assertEquals(TestClass.publicTest(input,Maze.class),output);
+    }
+    @Test
+    public void testLineToString(){
+        String input = "Test";
+        char[] res = {'T','e','s','t'};
+        Assertions.assertEquals(Arrays.toString(Maze.lineToChar(input)),Arrays.toString(res));
     }
 }

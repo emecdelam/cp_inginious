@@ -1,17 +1,39 @@
 package solving_a_maze;
-import java.util.ArrayList;
-import java.util.Queue;
-import java.util.LinkedList;
-import java.util.Collections;
-import java.util.Scanner;
+import java.util.*;
+
 public class Maze {
     static int[][] dir = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int m = scanner.nextInt();
+        System.out.println(m);
+        char[][] mazeChar = new char[n][m];
+        for (int i = 0; i <= n; i++){
+            String line = scanner.nextLine();
+            mazeChar[i] = lineToChar(line);
+        }
+        System.out.println(findPath(n,m,mazeChar,charFinder(mazeChar,'S'),charFinder(mazeChar,'T')));
     }
-    static ArrayList<int[]> findPath(int n, int m, char[][] maze, int[] start, int[] end) {
+    public static char[] lineToChar(String line){
+        char[] res = new char[line.length()];
+        for (int i=0;i<res.length;i++){
+            res[i] = line.charAt(i);
+        }
+        return res;
+    }
+    public static int[] charFinder(char[][] maze,char letter){
+        for (int i = 0; i <= maze.length; i++){
+            for (int j = 0; j <= maze[i].length; i++){
+                if (maze[i][j] == letter){
+                    return new int[]{i,j};
+                }
+            }
+        }
+        return null;
+
+    }
+    public static ArrayList<int[]> findPath(int n, int m, char[][] maze, int[] start, int[] end) {
         // initialize the queue and visited matrix
         Queue<int[]> Q = new LinkedList<>();
         Q.add(start);

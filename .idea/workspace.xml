@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="pathfinder class complete">
-      <change afterPath="$PROJECT_DIR$/src/solving_a_maze/Maze.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solving_a_maze/MazeTest.java" afterDir="false" />
+    <list default="true" id="bb3d3b58-0d72-43c0-aa4b-a6be6a507fb4" name="Changes" comment="maze class init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs_pathfinding/Graphs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs_pathfinding/Graphs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solving_a_maze/Maze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solving_a_maze/Maze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solving_a_maze/MazeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solving_a_maze/MazeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,32 +65,16 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.GraphsTest">
-    <configuration name="Graphs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graphs_pathfinding.Graphs" />
+  <component name="RunManager" selected="Application.Maze">
+    <configuration name="Maze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="solving_a_maze.Maze" />
       <module name="cp_ingi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs_pathfinding.*" />
+          <option name="PATTERN" value="solving_a_maze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdHocTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="cp_ingi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ad_hoc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ad_hoc" />
-      <option name="MAIN_CLASS_NAME" value="ad_hoc.AdHocTest" />
-      <option name="METHOD_NAME" value="testMain" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,17 +110,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GraphsTest.testPathFinder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MazeTest.testLineToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cp_ingi" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="graphs_pathfinding.*" />
+          <option name="PATTERN" value="solving_a_maze.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="graphs_pathfinding" />
-      <option name="MAIN_CLASS_NAME" value="graphs_pathfinding.GraphsTest" />
-      <option name="METHOD_NAME" value="testPathFinder" />
+      <option name="PACKAGE_NAME" value="solving_a_maze" />
+      <option name="MAIN_CLASS_NAME" value="solving_a_maze.MazeTest" />
+      <option name="METHOD_NAME" value="testLineToString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MazeTest.testMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cp_ingi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="solving_a_maze.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="solving_a_maze" />
+      <option name="MAIN_CLASS_NAME" value="solving_a_maze.MazeTest" />
+      <option name="METHOD_NAME" value="testMain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Maze" />
+        <item itemvalue="JUnit.MazeTest.testMain" />
+        <item itemvalue="JUnit.MazeTest.testLineToString" />
         <item itemvalue="JUnit.GraphsTest" />
         <item itemvalue="JUnit.GraphsTest.testMain" />
-        <item itemvalue="Application.Graphs" />
-        <item itemvalue="JUnit.GraphsTest.testPathFinder" />
-        <item itemvalue="JUnit.AdHocTest.testMain" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695129976002</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="maze class init">
+      <created>1695131325149</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695131325149</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,6 +278,7 @@
     <MESSAGE value="graphs init" />
     <MESSAGE value="test class for io" />
     <MESSAGE value="pathfinder class complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="pathfinder class complete" />
+    <MESSAGE value="maze class init" />
+    <option name="LAST_COMMIT_MESSAGE" value="maze class init" />
   </component>
 </project>
