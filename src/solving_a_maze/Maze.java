@@ -23,14 +23,6 @@ public class Maze {
         }
         scanner.close();
     }
-    public static void printMaze(char[][] maze) {
-        for (char[] chars : maze) {
-            for (char aChar : chars) {
-                System.out.print(aChar);
-            }
-            System.out.println();
-        }
-    }
     public static char[] lineToChar(String line){
         char[] res = new char[line.length()];
         for (int i=0;i<res.length;i++){
