@@ -9,22 +9,22 @@ import java.util.Collections;
 public class Graphs {
     @SuppressWarnings("unchecked")
     public static void main(String[] args) {
-        Scanner reader = new Scanner(System.in);
-        int n = reader.nextInt();
-        int m = reader.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int m = scanner.nextInt();
         LinkedList<Integer>[] g = new LinkedList[n];
         for(int i = 0; i < n; i++) {
             g[i] = new LinkedList<>();
         }
         for(int i = 0; i < m; i++) {
-            int u = reader.nextInt();
-            int v = reader.nextInt();
+            int u = scanner.nextInt();
+            int v = scanner.nextInt();
             g[u].add(v);
         }
         // do something with g
 
-        int s = reader.nextInt();
-        int t = reader.nextInt();
+        int s = scanner.nextInt();
+        int t = scanner.nextInt();
         ArrayList<Integer> path = findPath(g,s,t);
         StringBuilder sb = new StringBuilder();
         if (path != null){
@@ -38,7 +38,7 @@ public class Graphs {
         }
         String result = sb.toString();
         System.out.println(result);
-        reader.close();
+        scanner.close();
     }
     static ArrayList<Integer> findPath(LinkedList<Integer>[] g, int s, int t) {
         // initialize the queue and visited set
